@@ -8,3 +8,11 @@
 *.map
 *.sym
 tags
+# editor debris
+*~
+.#*
+._*
+.*.sw?
+# OS debris
+.DS_Store
+
