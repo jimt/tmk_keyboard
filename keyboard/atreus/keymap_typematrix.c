@@ -35,7 +35,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    *  !     @     up     {    }        ||        pgup    7     8     9    *
    *  #   left   down  right  $        ||        pgdn    4     5     6    +
    *  [     ]      (     )    &        ||          `     1     2     3    \
-   * ctrl insert super shift L2  bspc  ||  enter=space   fn    .     0    alt
+   * ctrl insert super shift bspc L2   ||  enter=space   fn    .     0    alt
    */
   KEYMAP(SHIFT(KC_1), SHIFT(KC_2), KC_UP, SHIFT(KC_LBRC), SHIFT(KC_RBRC), \
                                   KC_PGUP, KC_7, KC_8, KC_9, SHIFT(KC_8), \
@@ -43,7 +43,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                   KC_PGDN, KC_4, KC_5, KC_6, SHIFT(KC_EQUAL), \
                                 KC_LBRC, KC_RBRC, SHIFT(KC_9), SHIFT(KC_0), SHIFT(KC_7), \
                                   KC_GRAVE, KC_1, KC_2, KC_3, KC_BSLS,    \
-                                KC_LCTL, SHIFT(KC_INS), KC_LGUI, KC_LSFT, KC_FN1, KC_ESC, \
+                                KC_LCTL, SHIFT(KC_INS), KC_LGUI, KC_LSFT, KC_BSPC, KC_FN1, \
                                   KC_EQUAL, KC_SPC, KC_FN0, KC_DOT, KC_0, KC_LALT),
   /* 2: arrows and function keys */
   /*
